@@ -1,0 +1,110 @@
+#login-alert {
+	color: #cc3300;
+	font-family:"Lucida Console", Courier, monospace;
+	display: none;
+    }
+
+#msg-alert {
+	color: #cc3300;
+	font-family:"Lucida Console", Courier, monospace;
+	display: none;
+    }
+
+body {
+	background-color: #DCDCDC;
+	font-family: "Lucida Console", Courier, monospace;
+	font-size:16px; 
+		}
+
+th {
+	background-color: #768d87;
+	padding: 5px 5px 5px 5px;
+	vertical-align: middle;
+}
+
+.tableIn {
+	border: 3px solid #768d87;
+}
+
+.loginDiv {
+  border: 5px solid #768d87;
+  background-color: #F5F5F5;
+  margin: auto;
+  text-align: center;
+  width: 25%;
+  height: 30%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 40px 40px 40px 40px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 5px 0px rgba(42,42,42,.75);
+}
+		
+.myDiv {
+  border: 5px solid #768d87;
+  background-color: #F5F5F5;
+  overflow:auto;
+  margin: auto;
+  text-align: center;
+  width: 25%;
+  height: 70%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 40px 40px 40px 40px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 5px 0px rgba(42,42,42,.75);
+}		
+		
+.headerDiv {
+	color: #768d87;
+	font-family: "Lucida Console", Courier, monospace;
+		}
+
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Lucida Console", Courier, monospace;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+
+.myButton:hover {
+	background-color:#6c7c7c;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+label {
+	font-family:"Lucida Console", Courier, monospace;
+	font-size:16px;
+}
+		
+.css-input { 
+	padding:3px; 
+	font-size:16px; 
+	border-style:solid; 
+	border-radius:6px; 
+	border-width:3px; 
+	border-color:#768d87;
+	font-family:"Lucida Console", Courier, monospace; 
+	font-weight:normal; 
+	color:#768d87;   
+		} 
+.css-input:focus { 
+	outline:none; 
+		} 
