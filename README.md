@@ -44,8 +44,7 @@ create table clientes (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(
 ```
  - Criar a tabela clientes_enderecos:
 ``` 
-create table clientes_enderecos (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, clientes_id INT NOT NULL, cep CHAR(8) NOT NULL, logradouro VARCHAR(150) NOT NULL, bairro VARCHAR(150) NOT NULL, numero
-VARCHAR(10) NOT NULL, complemento VARCHAR(150), cidade VARCHAR(50) NOT NULL, estado VARCHAR(50) NOT NULL);
+create table clientes_enderecos (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, clientes_id INT NOT NULL, cep CHAR(8) NOT NULL, logradouro VARCHAR(150) NOT NULL, bairro VARCHAR(150) NOT NULL, numero VARCHAR(10) NOT NULL, complemento VARCHAR(150), cidade VARCHAR(50) NOT NULL, estado VARCHAR(50) NOT NULL);
 ```
 
 ## Funcionamento
